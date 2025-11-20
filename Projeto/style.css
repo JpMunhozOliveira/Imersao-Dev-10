@@ -63,6 +63,20 @@ div input:focus {
     box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa para indicar foco */
 }
 
+#filtro-tipo {
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-size: 1rem;
+    margin-right: .5rem;
+    cursor: pointer;
+    -webkit-appearance: none; /* Remove a aparência padrão no Chrome/Safari */
+    -moz-appearance: none; /* Remove a aparência padrão no Firefox */
+}
+
 #botao-busca {
     padding: 1rem 2rem; /* Espaçamento interno */
     border-radius: 1rem; /* Arredonda as bordas */
@@ -96,20 +110,34 @@ main {
     height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
 }
 
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 1.5rem; /* Espaçamento entre os cards */
+    padding: 0 1rem; /* Espaçamento lateral no container */
+}
+
+.nenhum-resultado {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--tertiary-color);
+}
+
 article {
-    background: none; /* Sem cor de fundo */
-    border-radius: 0; /* Sem bordas arredondadas */
-    padding: 0; /* Remove o padding */
-    padding: 0 1rem; /* Espaçamento interno nos lados */
+    background: #2d2e30; /* Cor de fundo mais clara para o card */
+    border-radius: 1rem; /* Bordas arredondadas */
+    padding: 1.5rem; /* Espaçamento interno do card */
     margin-bottom: 1.25rem; /* Margem inferior */
-    box-shadow: none; /* Sem sombra */
-    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
-    padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Transição suave */
+    border-bottom: none; /* Remove a borda inferior anterior */
+    display: flex;
+    flex-direction: column;
 }
 
 article:hover {
-    transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+    transform: scale(1.02); /* Leve zoom ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada no hover */
     cursor: pointer; /* Muda o cursor para uma mão */
 }
 
@@ -134,6 +162,11 @@ article p {
 article p strong {
     color: var(--tertiary-color); /* Cor do texto em negrito */
     font-weight: 400; /* Peso da fonte */
+}
+
+article ul {
+    padding-left: 1.2rem; /* Adiciona um recuo à lista de usos */
+    flex-grow: 1; /* Faz a lista ocupar o espaço disponível, empurrando o link para baixo */
 }
 
 article a {
@@ -201,8 +234,14 @@ article a:hover {
         padding: 0 1rem; /* Adiciona espaçamento lateral */
     }
 
-    article:hover { /* Estilos para o article em telas menores */
-        transform: none; /* Remove o efeito de escala ao passar o mouse */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas para tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        grid-template-columns: 1fr; /* 1 coluna para celulares */
     }
 }
 

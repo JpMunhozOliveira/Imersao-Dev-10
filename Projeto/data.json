@@ -1,6 +1,7 @@
 [
     {
         "nome": "HTML",
+        "tipo": "Marcação",
         "descricao": "Linguagem de marcação utilizada para estruturar o conteúdo na web.",
         "usos": [
             "Criação de páginas web",
@@ -11,6 +12,7 @@
     },
     {
         "nome": "CSS",
+        "tipo": "Estilo",
         "descricao": "Linguagem de estilo utilizada para descrever a apresentação de documentos HTML.",
         "usos": [
             "Estilização de páginas web",
@@ -21,6 +23,7 @@
     },
     {
         "nome": "JavaScript",
+        "tipo": "Multi-paradigma",
         "descricao": "Linguagem de programação que permite implementar funcionalidades complexas em páginas web.",
         "usos": [
             "Interatividade em páginas web",
@@ -31,6 +34,7 @@
     },
     {
         "nome": "Python",
+        "tipo": "Multi-paradigma",
         "descricao": "Linguagem de programação de alto nível, versátil e com sintaxe clara, usada em web, dados e automação.",
         "usos": [
             "Desenvolvimento web (back-end)",
@@ -41,6 +45,7 @@
     },
     {
         "nome": "Java",
+        "tipo": "Orientada a Objetos",
         "descricao": "Linguagem de programação orientada a objetos, robusta e usada para aplicações empresariais e Android.",
         "usos": [
             "Aplicações empresariais",
@@ -51,6 +56,7 @@
     },
     {
         "nome": "C#",
+        "tipo": "Orientada a Objetos",
         "descricao": "Linguagem moderna e orientada a objetos da Microsoft para aplicações .NET, Windows e jogos.",
         "usos": [
             "Aplicações para Windows",
@@ -58,5 +64,71 @@
             "Desenvolvimento de jogos com Unity"
         ],
         "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+    },
+    {
+        "nome": "TypeScript",
+        "tipo": "Orientada a Objetos",
+        "descricao": "Um superset do JavaScript que adiciona tipagem estática opcional, melhorando a escalabilidade e a manutenção de grandes projetos.",
+        "usos": [
+            "Desenvolvimento front-end com Angular/React",
+            "Aplicações back-end com Node.js",
+            "Projetos de grande escala"
+        ],
+        "link": "https://www.typescriptlang.org/docs/"
+    },
+    {
+        "nome": "Lua",
+        "tipo": "Scripting",
+        "descricao": "Uma linguagem de script leve, rápida e poderosa, frequentemente embutida em outras aplicações para estender suas funcionalidades.",
+        "usos": [
+            "Desenvolvimento de jogos (e.g., Roblox)",
+            "Sistemas embarcados e IoT",
+            "Configuração de aplicações (e.g., Neovim)"
+        ],
+        "link": "https://www.lua.org/docs.html"
+    },
+    {
+        "nome": "Go",
+        "tipo": "Compilada",
+        "descricao": "Uma linguagem de programação compilada e de código aberto criada pelo Google. É conhecida por sua simplicidade, eficiência e forte suporte para programação concorrente.",
+        "usos": [
+            "Desenvolvimento de sistemas de back-end",
+            "Ferramentas de linha de comando",
+            "Aplicações de rede e microserviços"
+        ],
+        "link": "https://go.dev/doc/"
+    },
+    {
+        "nome": "Rust",
+        "tipo": "Multi-paradigma",
+        "descricao": "Uma linguagem de programação de sistemas focada em segurança, velocidade e concorrência. Garante segurança de memória sem a necessidade de um coletor de lixo.",
+        "usos": [
+            "Desenvolvimento de sistemas operacionais",
+            "Sistemas embarcados",
+            "Aplicações de alto desempenho e WebAssembly"
+        ],
+        "link": "https://www.rust-lang.org/learn"
+    },
+    {
+        "nome": "Kotlin",
+        "tipo": "Orientada a Objetos",
+        "descricao": "Uma linguagem de programação moderna e estaticamente tipada que roda na JVM. É a linguagem preferida do Google para o desenvolvimento de aplicativos Android.",
+        "usos": [
+            "Desenvolvimento de aplicativos Android",
+            "Aplicações de servidor (back-end)",
+            "Desenvolvimento multi-plataforma"
+        ],
+        "link": "https://kotlinlang.org/docs/home.html"
+    },
+    {
+        "nome": "Swift",
+        "tipo": "Multi-paradigma",
+        "descricao": "Uma linguagem de programação poderosa e intuitiva criada pela Apple para desenvolver aplicativos para iOS, Mac, Apple TV e Apple Watch.",
+        "usos": [
+            "Desenvolvimento de aplicativos para iOS e macOS",
+            "Aplicações de servidor com SwiftNIO",
+            "Desenvolvimento para o ecossistema Apple"
+        ],
+        "link": "https://developer.apple.com/swift/documentation/"
     }
 ]
