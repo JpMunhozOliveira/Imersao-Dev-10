@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "HTML",
+        "descricao": "Linguagem de marcação utilizada para estruturar o conteúdo na web.",
+        "usos": [
+            "Criação de páginas web",
+            "Estruturação de conteúdo",
+            "Incorporação de multimídia"
+        ],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+    },
+    {
+        "nome": "CSS",
+        "descricao": "Linguagem de estilo utilizada para descrever a apresentação de documentos HTML.",
+        "usos": [
+            "Estilização de páginas web",
+            "Layout responsivo",
+            "Animações e transições"
+        ],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+    },
+    {
+        "nome": "JavaScript",
+        "descricao": "Linguagem de programação que permite implementar funcionalidades complexas em páginas web.",
+        "usos": [
+            "Interatividade em páginas web",
+            "Desenvolvimento front-end e back-end (Node.js)",
+            "Aplicações de página única (SPA)"
+        ],
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+    },
+    {
+        "nome": "Python",
+        "descricao": "Linguagem de programação de alto nível, versátil e com sintaxe clara, usada em web, dados e automação.",
+        "usos": [
+            "Desenvolvimento web (back-end)",
+            "Ciência de dados e Machine Learning",
+            "Automação de scripts"
+        ],
+        "link": "https://docs.python.org/3/"
+    },
+    {
+        "nome": "Java",
+        "descricao": "Linguagem de programação orientada a objetos, robusta e usada para aplicações empresariais e Android.",
+        "usos": [
+            "Aplicações empresariais",
+            "Desenvolvimento de aplicativos Android",
+            "Sistemas de grande escala"
+        ],
+        "link": "https://docs.oracle.com/en/java/"
+    },
+    {
+        "nome": "C#",
+        "descricao": "Linguagem moderna e orientada a objetos da Microsoft para aplicações .NET, Windows e jogos.",
+        "usos": [
+            "Aplicações para Windows",
+            "Desenvolvimento web com ASP.NET",
+            "Desenvolvimento de jogos com Unity"
+        ],
+        "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+    }
+]
