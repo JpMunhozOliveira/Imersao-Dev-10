@@ -1,134 +1,533 @@
 [
-    {
-        "nome": "HTML",
-        "tipo": "Marcação",
-        "descricao": "Linguagem de marcação utilizada para estruturar o conteúdo na web.",
-        "usos": [
-            "Criação de páginas web",
-            "Estruturação de conteúdo",
-            "Incorporação de multimídia"
-        ],
-        "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML"
-    },
-    {
-        "nome": "CSS",
-        "tipo": "Estilo",
-        "descricao": "Linguagem de estilo utilizada para descrever a apresentação de documentos HTML.",
-        "usos": [
-            "Estilização de páginas web",
-            "Layout responsivo",
-            "Animações e transições"
-        ],
-        "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS"
-    },
-    {
-        "nome": "JavaScript",
-        "tipo": "Multi-paradigma",
-        "descricao": "Linguagem de programação que permite implementar funcionalidades complexas em páginas web.",
-        "usos": [
-            "Interatividade em páginas web",
-            "Desenvolvimento front-end e back-end (Node.js)",
-            "Aplicações de página única (SPA)"
-        ],
-        "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-    },
-    {
-        "nome": "Python",
-        "tipo": "Multi-paradigma",
-        "descricao": "Linguagem de programação de alto nível, versátil e com sintaxe clara, usada em web, dados e automação.",
-        "usos": [
-            "Desenvolvimento web (back-end)",
-            "Ciência de dados e Machine Learning",
-            "Automação de scripts"
-        ],
-        "link": "https://docs.python.org/3/"
-    },
-    {
-        "nome": "Java",
-        "tipo": "Orientada a Objetos",
-        "descricao": "Linguagem de programação orientada a objetos, robusta e usada para aplicações empresariais e Android.",
-        "usos": [
-            "Aplicações empresariais",
-            "Desenvolvimento de aplicativos Android",
-            "Sistemas de grande escala"
-        ],
-        "link": "https://docs.oracle.com/en/java/"
-    },
-    {
-        "nome": "C#",
-        "tipo": "Orientada a Objetos",
-        "descricao": "Linguagem moderna e orientada a objetos da Microsoft para aplicações .NET, Windows e jogos.",
-        "usos": [
-            "Aplicações para Windows",
-            "Desenvolvimento web com ASP.NET",
-            "Desenvolvimento de jogos com Unity"
-        ],
-        "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
-    },
-    {
-        "nome": "TypeScript",
-        "tipo": "Orientada a Objetos",
-        "descricao": "Um superset do JavaScript que adiciona tipagem estática opcional, melhorando a escalabilidade e a manutenção de grandes projetos.",
-        "usos": [
-            "Desenvolvimento front-end com Angular/React",
-            "Aplicações back-end com Node.js",
-            "Projetos de grande escala"
-        ],
-        "link": "https://www.typescriptlang.org/docs/"
-    },
-    {
-        "nome": "Lua",
-        "tipo": "Scripting",
-        "descricao": "Uma linguagem de script leve, rápida e poderosa, frequentemente embutida em outras aplicações para estender suas funcionalidades.",
-        "usos": [
-            "Desenvolvimento de jogos (e.g., Roblox)",
-            "Sistemas embarcados e IoT",
-            "Configuração de aplicações (e.g., Neovim)"
-        ],
-        "link": "https://www.lua.org/docs.html"
-    },
-    {
-        "nome": "Go",
-        "tipo": "Compilada",
-        "descricao": "Uma linguagem de programação compilada e de código aberto criada pelo Google. É conhecida por sua simplicidade, eficiência e forte suporte para programação concorrente.",
-        "usos": [
-            "Desenvolvimento de sistemas de back-end",
-            "Ferramentas de linha de comando",
-            "Aplicações de rede e microserviços"
-        ],
-        "link": "https://go.dev/doc/"
-    },
-    {
-        "nome": "Rust",
-        "tipo": "Multi-paradigma",
-        "descricao": "Uma linguagem de programação de sistemas focada em segurança, velocidade e concorrência. Garante segurança de memória sem a necessidade de um coletor de lixo.",
-        "usos": [
-            "Desenvolvimento de sistemas operacionais",
-            "Sistemas embarcados",
-            "Aplicações de alto desempenho e WebAssembly"
-        ],
-        "link": "https://www.rust-lang.org/learn"
-    },
-    {
-        "nome": "Kotlin",
-        "tipo": "Orientada a Objetos",
-        "descricao": "Uma linguagem de programação moderna e estaticamente tipada que roda na JVM. É a linguagem preferida do Google para o desenvolvimento de aplicativos Android.",
-        "usos": [
-            "Desenvolvimento de aplicativos Android",
-            "Aplicações de servidor (back-end)",
-            "Desenvolvimento multi-plataforma"
-        ],
-        "link": "https://kotlinlang.org/docs/home.html"
-    },
-    {
-        "nome": "Swift",
-        "tipo": "Multi-paradigma",
-        "descricao": "Uma linguagem de programação poderosa e intuitiva criada pela Apple para desenvolver aplicativos para iOS, Mac, Apple TV e Apple Watch.",
-        "usos": [
-            "Desenvolvimento de aplicativos para iOS e macOS",
-            "Aplicações de servidor com SwiftNIO",
-            "Desenvolvimento para o ecossistema Apple"
-        ],
-        "link": "https://developer.apple.com/swift/documentation/"
-    }
+  {
+    "tipo": "Máquina de Cálculo",
+    "ano": 1642,
+    "nome": "Pascaline",
+    "marca": "N/A",
+    "descricao": "Uma das primeiras calculadoras mecânicas capazes de somar e subtrair automaticamente.",
+    "curiosidade": "Foi baseada em um sistema de engrenagens de relógio, chamada de 'máquina aritmética'.",
+    "specs": ["Funcionamento: Engrenagens e rodas dentadas", "Capacidade: Apenas soma e subtração"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1801,
+    "nome": "Cartões Perfurados (Tear de Jacquard)",
+    "marca": "N/A",
+    "descricao": "Usava cartões perfurados para programar padrões de tecelagem, estabelecendo o conceito de programação/armazenamento de dados.",
+    "curiosidade": "O conceito de cartões perfurados foi fundamental para a máquina analítica de Babbage e para o censo de Hollerith.",
+    "specs": ["Mídia: Cartões de madeira ou papel perfurado", "Função: Controle de padrões de tecelagem"]
+  },
+  {
+    "tipo": "Máquina de Cálculo",
+    "ano": 1837,
+    "nome": "Máquina Analítica",
+    "marca": "N/A",
+    "descricao": "Conceito de Charles Babbage para um computador mecânico de uso geral com ULA, memória e E/S. O modelo teórico do computador moderno.",
+    "curiosidade": "Ada Lovelace é creditada por criar os primeiros algoritmos para esta máquina.",
+    "specs": ["Tecnologia: Mecânica (nunca totalmente construída)", "Arquitetura: Uso geral, programa armazenado"]
+  },
+  {
+    "tipo": "Máquina de Tabulação",
+    "ano": 1890,
+    "nome": "Tabuladora de Hollerith",
+    "marca": "IBM",
+    "descricao": "Máquina que lia cartões perfurados para tabular o Censo dos EUA. Primeira aplicação comercial em grande escala de hardware de processamento de dados.",
+    "curiosidade": "A empresa de Hollerith se tornou o núcleo da International Business Machines (IBM).",
+    "specs": ["Tecnologia: Eletromecânica", "Mídia: Cartões perfurados do Censo"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1944,
+    "nome": "Harvard Mark I (ASCC)",
+    "marca": "IBM",
+    "descricao": "Um dos primeiros computadores eletromecânicos de grande escala. Crucial para cálculos balísticos durante a Segunda Guerra Mundial.",
+    "curiosidade": "Tinha 15 metros de comprimento e pesava 5 toneladas, sendo barulhento e lento.",
+    "specs": ["Tecnologia: Relés eletromecânicos", "Velocidade: 0.3 segundos por multiplicação"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1947,
+    "nome": "ENIAC",
+    "marca": "UPenn",
+    "descricao": "O primeiro computador digital eletrônico de uso geral. Representava a primeira geração de computadores (válvulas).",
+    "curiosidade": "Usava cerca de 18.000 válvulas a vácuo e consumia grande quantidade de energia.",
+    "specs": ["Tecnologia: Válvulas a vácuo", "Velocidade: 5.000 adições/segundo"]
+  },
+  {
+    "tipo": "Componente",
+    "ano": 1947,
+    "nome": "Transistor",
+    "marca": "Bell Labs",
+    "descricao": "Substituiu as válvulas a vácuo, revolucionando o hardware ao permitir a miniaturização e a eficiência energética.",
+    "curiosidade": "Sua invenção rendeu o Prêmio Nobel de Física em 1956.",
+    "specs": ["Material: Semicondutor (inicialmente Germânio)", "Função: Chave eletrônica e amplificador"]
+  },
+  {
+    "tipo": "Memória",
+    "ano": 1951,
+    "nome": "Memória de Núcleo Magnético",
+    "marca": "MIT",
+    "descricao": "Primeira tecnologia de memória rápida e confiável. Armazenava bits através da magnetização de pequenos 'donuts' de ferrite.",
+    "curiosidade": "Era volátil, mas muito mais rápida que tambores magnéticos ou válvulas.",
+    "specs": ["Tecnologia: Anéis de ferrite magnetizados", "Velocidade: Acesso em microssegundos"]
+  },
+  {
+    "tipo": "Componente",
+    "ano": 1958,
+    "nome": "Circuito Integrado (CI)",
+    "marca": "Texas Instruments",
+    "descricao": "Agrupou múltiplos transistores e componentes em uma única pastilha de silício. Marco da Terceira Geração de computadores.",
+    "curiosidade": "A invenção foi feita por Jack Kilby e Robert Noyce (cofundador da Intel).",
+    "specs": ["Componentes: Transistores e resistores em silício", "Função: Miniaturização de circuitos"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1959,
+    "nome": "IBM 1401",
+    "marca": "IBM",
+    "descricao": "Um dos primeiros computadores de segunda geração (baseado em transistores) a ser amplamente adotado para uso comercial.",
+    "curiosidade": "Foi o computador mais vendido no mundo no início dos anos 60.",
+    "specs": ["Tecnologia: Transistores", "Mídia de E/S: Cartões perfurados e fitas magnéticas"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1964,
+    "nome": "IBM System/360",
+    "marca": "IBM",
+    "descricao": "O primeiro mainframe com arquitetura compatível em toda a linha de produtos, popularizando a ideia de família de computadores.",
+    "curiosidade": "Considerado o marco inicial da Terceira Geração de computadores (baseada em CI).",
+    "specs": ["Tecnologia: Circuitos Integrados (CI)", "Arquitetura: 8-bit (Byte) e 32-bit (Palavra)"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1965,
+    "nome": "PDP-8",
+    "marca": "DEC",
+    "descricao": "Primeiro minicomputador comercialmente bem-sucedido. Pequeno e acessível para laboratórios e pequenas empresas.",
+    "curiosidade": "A DEC popularizou a ideia de computadores menores que mainframes.",
+    "specs": ["Memória: 4KB", "Tecnologia: CI discreto"]
+  },
+  {
+    "tipo": "Periférico",
+    "ano": 1968,
+    "nome": "Mouse",
+    "marca": "SRI",
+    "descricao": "Inventado por Douglas Engelbart, o protótipo inicial usava um par de rodas para rastrear o movimento.",
+    "curiosidade": "O nome 'mouse' surgiu porque o cabo se parecia com o rabo de um rato.",
+    "specs": ["Tecnologia: Mecânica (duas rodas perpendiculares)", "Função: Interação em Interface Gráfica"]
+  },
+  {
+    "tipo": "Memória",
+    "ano": 1970,
+    "nome": "DRAM",
+    "marca": "Intel",
+    "descricao": "Dynamic Random-Access Memory. Tornou-se o padrão de memória principal, substituindo a memória de núcleo magnético devido ao seu custo e densidade.",
+    "curiosidade": "O Intel 1103 foi um dos primeiros chips de DRAM comercialmente bem-sucedidos.",
+    "specs": ["Tecnologia: Células de capacitor", "Função: Memória principal de acesso rápido"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1971,
+    "nome": "Intel 4004",
+    "marca": "Intel",
+    "descricao": "O primeiro **microprocessador** comercial, integrando a CPU inteira em um único chip de silício.",
+    "curiosidade": "Era um chip de 4 bits, com 2.300 transistores.",
+    "specs": ["Arquitetura: 4 bits", "Transistores: 2.300"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1971,
+    "nome": "Disquete de 8 polegadas (Floppy Disk)",
+    "marca": "IBM",
+    "descricao": "Primeira mídia de armazenamento portátil e regravável de baixo custo para computadores.",
+    "curiosidade": "Inicialmente, era usado apenas para carregar diagnósticos e microcódigo em mainframes da IBM.",
+    "specs": ["Capacidade inicial: 80 KB", "Tamanho: 8 polegadas"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1972,
+    "nome": "Intel 8008",
+    "marca": "Intel",
+    "descricao": "O primeiro microprocessador de 8 bits. Permitiu a criação de terminais e computadores mais sofisticados.",
+    "curiosidade": "Usado no computador 'Micral N', considerado por alguns o primeiro microcomputador comercial.",
+    "specs": ["Arquitetura: 8 bits", "Velocidade de Clock: 800 kHz"]
+  },
+  {
+    "tipo": "Armazenamento",
+    "ano": 1973,
+    "nome": "HD Winchester (Disco Rígido)",
+    "marca": "IBM",
+    "descricao": "O primeiro disco rígido (HD) a usar discos selados e cabeças de leitura/escrita leves. Estabeleceu o padrão para o armazenamento de dados de massa.",
+    "curiosidade": "O nome 'Winchester' veio do seu design interno: 30MB de armazenamento e 30ms de tempo de acesso (30-30).",
+    "specs": ["Capacidade inicial: 60MB (dois módulos de 30MB)", "Mecanismo: Discos e cabeças seladas"]
+  },
+  {
+    "tipo": "Rede",
+    "ano": 1973,
+    "nome": "Ethernet",
+    "marca": "Xerox PARC",
+    "descricao": "Padrão de hardware de rede local (LAN) que permitiu que computadores se comunicassem rapidamente entre si.",
+    "curiosidade": "Originalmente, usava cabos coaxiais e tinha velocidade de 2.94 Mbps.",
+    "specs": ["Velocidade inicial: 2.94 Mbps", "Mídia: Cabo Coaxial (grosso)"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1975,
+    "nome": "Altair 8800",
+    "marca": "MITS",
+    "descricao": "Considerado o catalisador da revolução do computador pessoal. Vendido como um kit para hobbyistas.",
+    "curiosidade": "A linguagem BASIC para o Altair foi escrita por Bill Gates e Paul Allen (futuros fundadores da Microsoft).",
+    "specs": ["Processador: Intel 8080", "E/S: Interruptores e LEDs no painel frontal"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1975,
+    "nome": "MOS 6502",
+    "marca": "MOS Tech",
+    "descricao": "Microprocessador de 8 bits que se tornou famoso por ser usado em computadores domésticos icônicos devido ao seu baixo custo.",
+    "curiosidade": "Usado em máquinas como Apple II, Commodore PET e Atari 2600.",
+    "specs": ["Arquitetura: 8 bits", "Custo de lançamento: US$ 25 (baixo custo)"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1976,
+    "nome": "Disquete de 5 1/4 polegadas",
+    "marca": "Shugart",
+    "descricao": "Versão menor e mais portátil do disquete de 8 polegadas, fundamental para a primeira geração de PCs.",
+    "curiosidade": "Introduziu o invólucro mais fino e flexível, que o público mais tarde associou ao termo 'floppy'.",
+    "specs": ["Capacidade inicial: 110 KB (face única)", "Tamanho: 5 1/4 polegadas"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1977,
+    "nome": "Apple II",
+    "marca": "Apple",
+    "descricao": "Um dos primeiros computadores pessoais com caixa de plástico, gráficos coloridos e slots de expansão, popular em residências e escolas.",
+    "curiosidade": "Lançado como parte da 'Trindade de 1977' (Apple II, Commodore PET, TRS-80).",
+    "specs": ["Processador: MOS 6502", "Memória RAM: 4 KB"]
+  },
+  {
+    "tipo": "Periférico",
+    "ano": 1977,
+    "nome": "Joystick (Atari)",
+    "marca": "Atari",
+    "descricao": "Controlador de jogo padrão para o Atari 2600. Padronizou a interface de controle para consoles domésticos.",
+    "curiosidade": "O joystick de 9 pinos se tornou um padrão de conexão usado em muitos computadores domésticos da época.",
+    "specs": ["Controle: 4 direções e 1 botão", "Conexão: D-sub 9 pinos"]
+  },
+  {
+    "tipo": "Periférico",
+    "ano": 1977,
+    "nome": "Impressora Matricial (Epson TX-80)",
+    "marca": "Epson",
+    "descricao": "Primeira impressora matricial de baixo custo. Tornou-se onipresente em escritórios e casas para impressão de texto.",
+    "curiosidade": "O ruído de 'agulhas batendo' é um som icônico dos anos 80.",
+    "specs": ["Tecnologia: Matriz de pontos (agulhas)", "Velocidade: 100 caracteres/segundo"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1978,
+    "nome": "Intel 8086",
+    "marca": "Intel",
+    "descricao": "Processador de 16 bits que introduziu a arquitetura **x86**, que domina a computação pessoal até hoje.",
+    "curiosidade": "O 8088, uma versão com barramento externo de 8 bits, foi usado no IBM PC original.",
+    "specs": ["Arquitetura: 16 bits", "Velocidade de Clock: 5 MHz a 10 MHz"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1979,
+    "nome": "Fita Cassete (Data Cassette)",
+    "marca": "Diversas",
+    "descricao": "Mídia de baixo custo usada para carregar programas e armazenar dados em computadores domésticos.",
+    "curiosidade": "O carregamento de programas era lento e muitas vezes inconfiável, levando minutos por jogo.",
+    "specs": ["Capacidade: Variava (cerca de 30-100 KB por lado)", "Tempo de acesso: Sequencial (muito lento)"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1981,
+    "nome": "IBM PC (Modelo 5150)",
+    "marca": "IBM",
+    "descricao": "Estabeleceu a arquitetura **PC** (hardware aberto), que se tornou o padrão da indústria.",
+    "curiosidade": "O 'PC' original vinha com apenas 16 KB de RAM, expansível até 256 KB.",
+    "specs": ["Processador: Intel 8088", "Sistema Operacional: MS-DOS"]
+  },
+  {
+    "tipo": "Placa de Vídeo",
+    "ano": 1981,
+    "nome": "MDA/CGA (Adaptador Gráfico)",
+    "marca": "IBM",
+    "descricao": "Os primeiros adaptadores gráficos para o IBM PC. O **CGA** (Color Graphics Adapter) introduziu gráficos coloridos.",
+    "curiosidade": "O CGA era famoso por suas cores limitadas e artefatos de cor em modos de alta resolução.",
+    "specs": ["MDA: Mono, apenas texto", "CGA: 4 cores em 320x200"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1982,
+    "nome": "Commodore 64",
+    "marca": "Commodore",
+    "descricao": "O modelo de computador mais vendido de todos os tempos. Destacou-se por seus gráficos coloridos e seu poderoso chip de som.",
+    "curiosidade": "O chip de som (SID) é reverenciado até hoje por músicos de chiptune.",
+    "specs": ["Processador: MOS 6510", "Memória RAM: 64 KB"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1982,
+    "nome": "Disquete de 3 1/2 polegadas",
+    "marca": "Sony",
+    "descricao": "O 'disquete' rígido com capa plástica, mais durável e com maior capacidade, que se tornou o padrão no final dos anos 80 e 90.",
+    "curiosidade": "O Mac e o Amiga foram grandes impulsionadores da popularidade deste formato.",
+    "specs": ["Capacidade (DD): 720 KB (cerca de 400 KB no Mac)", "Tamanho: 3 1/2 polegadas"]
+  },
+  {
+    "tipo": "Placa de Vídeo",
+    "ano": 1984,
+    "nome": "EGA (Adaptador Gráfico)",
+    "marca": "IBM",
+    "descricao": "Enhanced Graphics Adapter. Sucessor do CGA, permitiu gráficos de maior resolução e uma paleta de 16 cores.",
+    "curiosidade": "Foi o padrão gráfico para PCs por grande parte da segunda metade dos anos 80.",
+    "specs": ["Resolução Máxima: 640x350", "Paleta: 16 cores"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1984,
+    "nome": "Apple Macintosh 128K",
+    "marca": "Apple",
+    "descricao": "Popularizou a Interface Gráfica do Usuário (GUI) e o mouse, tornando o computador mais acessível e intuitivo.",
+    "curiosidade": "O comercial de lançamento, dirigido por Ridley Scott, foi exibido durante o Super Bowl.",
+    "specs": ["Processador: Motorola 68000", "Memória RAM: 128 KB"]
+  },
+  {
+    "tipo": "Periférico",
+    "ano": 1984,
+    "nome": "HP LaserJet",
+    "marca": "HP",
+    "descricao": "Primeira impressora a laser de mesa acessível. Trouxe qualidade de impressão profissional para escritórios e uso pessoal.",
+    "curiosidade": "Usava tecnologia Canon, mas a HP a tornou um sucesso comercial.",
+    "specs": ["Tecnologia: Laser eletrofotográfico", "Velocidade: 8 páginas por minuto"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 1985,
+    "nome": "Commodore Amiga 1000",
+    "marca": "Commodore",
+    "descricao": "Revolucionário pela sua capacidade multimídia, chips gráficos e de áudio dedicados (Custom Chips) e multitarefa preemptiva.",
+    "curiosidade": "Foi amplamente usado em produção de vídeo e animação de TV no final dos anos 80.",
+    "specs": ["CPU: Motorola 68000", "Custom Chips: Agnus, Denise e Paula"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1985,
+    "nome": "Intel 80386 (386)",
+    "marca": "Intel",
+    "descricao": "Primeiro microprocessador de 32 bits da Intel. Introduziu o modo de endereçamento de memória linear e o modo protegido.",
+    "curiosidade": "Tornou a multitarefa real e eficiente possível em PCs, base para o Windows 3.1 e posteriores.",
+    "specs": ["Arquitetura: 32 bits", "Transistores: 275.000"]
+  },
+  {
+    "tipo": "Placa de Vídeo",
+    "ano": 1987,
+    "nome": "VGA (Adaptador Gráfico)",
+    "marca": "IBM",
+    "descricao": "Video Graphics Array. Tornou-se o **padrão universal** para monitores de PC por mais de uma década.",
+    "curiosidade": "O conector D-sub de 15 pinos se tornou sinônimo de conexão de monitor de PC.",
+    "specs": ["Resolução Padrão: 640x480 (16 cores)", "Paleta: 262.144 cores (6 bits)"]
+  },
+  {
+    "tipo": "Memória",
+    "ano": 1988,
+    "nome": "Flash Memory",
+    "marca": "Toshiba",
+    "descricao": "Tipo de memória não volátil, regravável e compacta. Abriu caminho para pen drives, SSDs e cartões de memória.",
+    "curiosidade": "O nome 'Flash' foi dado devido à velocidade com que o conteúdo podia ser 'apagado' (em um flash).",
+    "specs": ["Tipo: NAND e NOR", "Função: Armazenamento não volátil"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1989,
+    "nome": "Intel 80486 (486)",
+    "marca": "Intel",
+    "descricao": "Integrou o cache de memória e o coprocessador matemático no mesmo chip, aumentando drasticamente a velocidade dos PCs.",
+    "curiosidade": "Foi o último processador 80x86 a ser nomeado com números.",
+    "specs": ["Tecnologia: Pipeline, FPU Integrada", "Transistores: 1.2 milhões"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1990,
+    "nome": "CD-R/CD-RW (Gravação)",
+    "marca": "Sony",
+    "descricao": "Tecnologia que permitiu que usuários gravassem dados em CDs. Revolucionou a distribuição e o backup de dados.",
+    "curiosidade": "O CD-R (gravável uma vez) e o CD-RW (regravável) popularizaram a cópia de música e software.",
+    "specs": ["Capacidade: 650 MB / 700 MB", "Diâmetro: 120 mm"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1991,
+    "nome": "PowerPC (Arquitetura)",
+    "marca": "IBM",
+    "descricao": "Arquitetura RISC de 32/64 bits, usada em computadores Apple (Power Mac) e consoles de jogos.",
+    "curiosidade": "Criado pela aliança AIM (Apple, IBM, Motorola) para competir com a Intel x86.",
+    "specs": ["Arquitetura: RISC", "Função: Desktop e Sistemas Embarcados"]
+  },
+  {
+    "tipo": "Rede",
+    "ano": 1991,
+    "nome": "Adaptador Ethernet 10Base-T",
+    "marca": "IEEE",
+    "descricao": "Popularização do padrão Ethernet em **par trançado (UTP)** com conector **RJ-45**, tornando a rede mais barata e fácil de instalar.",
+    "curiosidade": "Substituiu o cabo coaxial, que era mais difícil de manusear e instalar.",
+    "specs": ["Mídia: Cabo UTP", "Velocidade: 10 Mbps"]
+  },
+  {
+    "tipo": "Placa de Som",
+    "ano": 1992,
+    "nome": "Sound Blaster 16",
+    "marca": "Creative Labs",
+    "descricao": "Tornou-se o padrão de áudio para PCs, introduzindo áudio de 16 bits, MIDI e gravação de som de qualidade em máquinas domésticas.",
+    "curiosidade": "Quase todos os jogos para PC no início dos anos 90 suportavam a Sound Blaster.",
+    "specs": ["Qualidade: 16 bits", "Conexão: Barramento ISA"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1993,
+    "nome": "Intel Pentium",
+    "marca": "Intel",
+    "descricao": "Primeiro processador da Intel a usar um nome, e não números. Introduziu a arquitetura **superescalar** (dois pipelines de execução).",
+    "curiosidade": "O nome foi criado para evitar que outras empresas (como a AMD) usassem a mesma nomenclatura numérica (586).",
+    "specs": ["Arquitetura: Superescalar", "Transistores: 3.1 milhões"]
+  },
+  {
+    "tipo": "Interface",
+    "ano": 1996,
+    "nome": "USB 1.0",
+    "marca": "Intel",
+    "descricao": "Universal Serial Bus. Padrão de conectividade serial unificada que permitiu o **Plug and Play** e substituiu portas legadas (paralela/serial).",
+    "curiosidade": "O objetivo era eliminar o 'pesadelo' de configuração de periféricos (IRQ, DMA).",
+    "specs": ["Velocidade: 1.5 Mbps (baixa) e 12 Mbps (máxima)", "Conexão: 4 pinos"]
+  },
+  {
+    "tipo": "Placa de Vídeo",
+    "ano": 1996,
+    "nome": "3dfx Voodoo Graphics",
+    "marca": "3dfx",
+    "descricao": "Aceleradora 3D dedicada que popularizou os gráficos 3D no PC. Usava a API Glide para renderização.",
+    "curiosidade": "Era uma placa extra que funcionava em conjunto com uma placa 2D (pass-through).",
+    "specs": ["Memória: 4 MB (2MB textura, 2MB frame buffer)", "API: Glide (própria)"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 1997,
+    "nome": "DVD (Digital Versatile Disc)",
+    "marca": "Sony",
+    "descricao": "Mídia ótica de alta densidade que substituiu o CD para armazenamento de filmes e grandes volumes de dados.",
+    "curiosidade": "A capacidade inicial era de 4.7 GB (camada única).",
+    "specs": ["Capacidade: 4.7 GB (camada única)", "Mídia: Ótica (laser vermelho)"]
+  },
+  {
+    "tipo": "Processador Gráfico",
+    "ano": 1999,
+    "nome": "NVIDIA GeForce 256",
+    "marca": "NVIDIA",
+    "descricao": "Primeira a ser comercializada como uma **GPU** (Graphics Processing Unit). Introduziu a função 'Transform and Lighting' no hardware.",
+    "curiosidade": "A NVIDIA cunhou o termo 'GPU' para essa placa.",
+    "specs": ["Memória: 32MB SDRAM", "Interface: AGP 4x"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 1999,
+    "nome": "AMD Athlon (K7)",
+    "marca": "AMD",
+    "descricao": "Primeiro processador da AMD a superar o desempenho dos concorrentes da Intel, tornando-a uma concorrente de peso.",
+    "curiosidade": "Usava o Slot A, fisicamente idêntico ao Slot 1 da Intel, mas eletricamente incompatível.",
+    "specs": ["Arquitetura: Superescalar, 3 pipelines", "Interface: Slot A"]
+  },
+  {
+    "tipo": "Rede",
+    "ano": 1999,
+    "nome": "Wi-Fi (802.11b)",
+    "marca": "IEEE",
+    "descricao": "Lançamento do padrão 802.11b (Wi-Fi), que popularizou a conectividade de rede sem fio (wireless) em computadores pessoais e notebooks.",
+    "curiosidade": "O nome 'Wi-Fi' foi cunhado para ser mais fácil de pronunciar do que o nome do padrão (802.11b).",
+    "specs": ["Velocidade: 11 Mbps (máxima)", "Frequência: 2.4 GHz"]
+  },
+  {
+    "tipo": "Mídia de Armazenamento",
+    "ano": 2000,
+    "nome": "Pendrive (USB Flash Drive)",
+    "marca": "M-Systems",
+    "descricao": "Dispositivo portátil de armazenamento baseado em memória flash, substituindo rapidamente disquetes e CDs de backup.",
+    "curiosidade": "Os primeiros modelos tinham capacidade de 8 MB, considerados enormes na época.",
+    "specs": ["Tecnologia: Memória Flash NAND", "Interface: USB 1.1 / 2.0"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 2003,
+    "nome": "x86-64 (AMD64)",
+    "marca": "AMD",
+    "descricao": "Arquitetura que introduziu a computação de 64 bits para o mercado de PCs, mantendo total compatibilidade com o software x86 de 32 bits.",
+    "curiosidade": "A Intel foi forçada a adotar a arquitetura da AMD, que se tornou o padrão de 64 bits.",
+    "specs": ["Arquitetura: 64 bits (retrocompatível com 32)", "Função: Desktop e Servidor"]
+  },
+  {
+    "tipo": "Processador",
+    "ano": 2006,
+    "nome": "Intel Core 2 Duo (Conroe)",
+    "marca": "Intel",
+    "descricao": "Processador dual-core que marcou a recuperação da Intel em desempenho e eficiência energética, superando a arquitetura Pentium 4.",
+    "curiosidade": "A arquitetura Core estabeleceu o design de multi-core (multi-núcleo) como o novo padrão.",
+    "specs": ["Arquitetura: Multi-Core (dual-core)", "Consumo: Baixo consumo de energia"]
+  },
+  {
+    "tipo": "Armazenamento",
+    "ano": 2007,
+    "nome": "SSD (Solid State Drive)",
+    "marca": "Diversas",
+    "descricao": "Unidade de Estado Sólido. Armazenamento de dados que usa memória flash (sem peças móveis), oferecendo velocidades de leitura/escrita drasticamente mais rápidas que HDs.",
+    "curiosidade": "O preço dos SSDs começou a cair drasticamente, iniciando sua substituição dos HDs em notebooks e desktops.",
+    "specs": ["Tecnologia: Memória Flash NAND", "Interface: SATA"]
+  },
+  {
+    "tipo": "Computador (Móvel)",
+    "ano": 2007,
+    "nome": "iPhone (Primeira Geração)",
+    "marca": "Apple",
+    "descricao": "Seu hardware (tela *multitouch* capacitiva, acelerômetro, GPS) redefiniu a interface e as capacidades de todos os dispositivos móveis subsequentes.",
+    "curiosidade": "Steve Jobs disse que o iPhone combinava um iPod, um telefone e um comunicador de internet.",
+    "specs": ["Interface: Tela Multitouch Capacitiva", "Sensores: Acelerômetro, Sensor de Proximidade"]
+  },
+  {
+    "tipo": "Processador Gráfico",
+    "ano": 2008,
+    "nome": "NVIDIA CUDA / GPGPU",
+    "marca": "NVIDIA",
+    "descricao": "A arquitetura CUDA permitiu que as GPUs fossem usadas para computação geral (GPGPU), não apenas gráficos. Essencial para a evolução da IA.",
+    "curiosidade": "Transformou a GPU de um componente de jogo para um 'supercomputador' de propósito geral.",
+    "specs": ["Tecnologia: Paralelismo Massivo", "API: CUDA"]
+  },
+  {
+    "tipo": "Interface",
+    "ano": 2011,
+    "nome": "Thunderbolt",
+    "marca": "Intel",
+    "descricao": "Interface de E/S de alta velocidade que combina dados PCI Express e DisplayPort em um único cabo.",
+    "curiosidade": "O Thunderbolt 3 (2015) adotou o conector USB-C.",
+    "specs": ["Velocidade: 10 Gbps (por porta)", "Conexão: Mini DisplayPort (inicialmente)"]
+  },
+  {
+    "tipo": "Computador",
+    "ano": 2012,
+    "nome": "Raspberry Pi (Modelo B)",
+    "marca": "Raspberry Pi Foundation",
+    "descricao": "Um computador de baixo custo e tamanho de cartão de crédito. Popularizou a codificação e a eletrônica entre estudantes e entusiastas.",
+    "curiosidade": "Originalmente, foi criado para reverter a queda no número de estudantes que se inscreviam em Ciência da Computação.",
+    "specs": ["CPU: ARM", "Preço: US$ 35"]
+  },
+  {
+    "tipo": "Interface",
+    "ano": 2013,
+    "nome": "NVMe (Protocolo)",
+    "marca": "PCI-SIG",
+    "descricao": "Protocolo para SSDs de alto desempenho que usa diretamente as vias PCI Express, explorando a velocidade máxima da memória flash.",
+    "curiosidade": "Substituiu o protocolo SATA, que havia se tornado um gargalo para SSDs rápidos.",
+    "specs": ["Interface: PCI Express (PCIe)", "Vantagem: Baixa latência"]
+  }
 ]

@@ -2,33 +2,42 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Base de conhecimento</title>
+    <title>Linha do Tempo Tech</title>
 </head>
 <body>
     <header>
-        <h1>Base de Conhecimento</h1>
-        <div>
-            <input type="text" placeholder="Pesquisar">
-            <select id="filtro-tipo">
-                <option value="todos">Filtrar por tipo</option>
-            </select>
-            <button id="botao-busca">Pesquisar</button>
+        <div class="header-top">
+            <h1>Linha do Tempo Tech</h1>
         </div>
+        <!-- Botão para exibir filtros em telas mobile -->
+        <button id="botao-toggle-filtros">Exibir Filtros</button>
+            <div class="filter-row">
+                <select id="filtro-tipo">
+                    <option value="todos">Todos os Tipos</option>
+                </select>
+                <select id="filtro-marca">
+                    <option value="todas">Todas as Marcas</option>
+                </select>
+                <button id="botao-ordenar">Ordenar por mais novo</button>
+                <button id="botao-limpar">Limpar</button>
+            </div>
     </header>
     <main>
         <section class="card-container">
-            <!-- Cards serão inseridos aqui dinamicamente -->
+            <div id="cards-wrapper">
+                <!-- Cards serão inseridos aqui dinamicamente pelo script.js -->
+            </div>
         </section>
     </main>
     <footer class="footer">
         <ul class="footer-links">
             <li><a href="https://github.com/JpMunhozOliveira">Github</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Privacidade</a></li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
