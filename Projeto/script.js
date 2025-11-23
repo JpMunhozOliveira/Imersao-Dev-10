@@ -198,10 +198,10 @@ function alternarOrdem() {
     const botaoOrdenar = document.getElementById('botao-ordenar');
     if (ordemAno === 'asc') {
         ordemAno = 'desc'; // Muda para ordenar por mais novo
-        botaoOrdenar.textContent = 'Ordenar por mais novo'; // O botão agora oferece a opção de voltar para "mais novo"
+        botaoOrdenar.textContent = 'Ordenar por mais antigo';
     } else {
         ordemAno = 'asc'; // Muda para ordenar por mais velho
-        botaoOrdenar.textContent = 'Ordenar por mais antigo'; // O botão agora oferece a opção de voltar para "mais antigo"
+        botaoOrdenar.textContent = 'Ordenar por mais novo';
     }
     aplicarFiltros();
 }
