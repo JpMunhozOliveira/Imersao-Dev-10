@@ -266,6 +266,23 @@ article:nth-of-type(odd)::after {
     right: -3.3rem;
 }
 
+/* Linha horizontal que conecta o círculo ao card */
+article::before {
+    content: '';
+    position: absolute;
+    top: calc(1.5rem + 9.5px); /* Alinha verticalmente com o centro do círculo */
+    height: 4px;
+    width: 2.5rem; /* Largura da linha, correspondente ao espaço entre a timeline e o card */
+    background-color: var(--tertiary-color);
+    z-index: 0; /* Garante que a linha fique atrás do círculo */
+    transition: background-color 0.2s ease-in-out; /* Transição suave para a cor */
+}
+
+/* Posiciona a linha para os cards da direita */
+article:nth-of-type(even)::before { left: -2.5rem; }
+/* Posiciona a linha para os cards da esquerda */
+article:nth-of-type(odd)::before { right: -2.5rem; }
+
 .card-content {
     background: #2d2e30; /* Cor de fundo do card */
     border-radius: 1rem; /* Bordas arredondadas */
@@ -282,6 +299,11 @@ article:nth-of-type(odd)::after {
 /* Muda a cor da bolinha para azul no hover */
 article:hover::after {
     border-color: var(--primary-color);
+}
+
+/* Muda a cor da linha para azul no hover */
+article:hover::before {
+    background-color: var(--primary-color);
 }
 
 /* Adiciona o efeito de zoom e sombra ao passar o mouse no conteúdo do card */
@@ -433,7 +455,10 @@ article:nth-of-type(odd) h2 {
     }
 
     /* Esconde os círculos da timeline em telas menores para não sobrepor os cards */
-    article::after { display: none; }
+    article::after,
+    article::before { 
+        display: none; /* Esconde o círculo e a nova linha de conexão */
+    }
 
     /* Reseta os alinhamentos específicos dos cards da esquerda */
     article:nth-of-type(odd) h2,
