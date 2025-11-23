@@ -9,7 +9,7 @@
     <h3>Bem-vindo à imersão: quatro aulas gratuitas para criar um site dinâmico com HTML, CSS, JavaScript junto ao Google Gemini.</h3>
     <h2>Projeto</h2>
     <p align="justify">Este é um projeto da 10º Imersão Dev Alura, uma linha do tempo interativa que mapeia 50 marcos cruciais na história do hardware. Desenvolvido para praticar a manipulação de dados, o site utiliza um arquivo JSON padronizado, cuja estrutura e curadoria foram integralmente criadas com a ajuda do Gemini. O objetivo é oferecer aos desenvolvedores uma visão prática da evolução tecnológica, do Transistor ao SSD, usando dados limpos para filtros e rendering.<br>
-    <a href="">Link do site criado</a></p>
+    <a href="https://jpmunhozoliveira.github.io/Imersao-Dev-10/Projeto/">Link do site criado</a></p>
     <h2>Certificado</h2>
 </div>
 
