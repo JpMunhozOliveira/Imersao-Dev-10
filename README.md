@@ -13,5 +13,12 @@
      É uma viagem no tempo para entender as peças que formam o coração do nosso mundo digital. Espero que gostem.</p>
     <h3 align= "center"><a href="https://jpmunhozoliveira.github.io/Imersao-Dev-10/Projeto/" target="_blank">Ir para o site ➡️</a></h3>
     <h2>Certificado</h2>
+    <div align="center">
+    <a href="https://cursos.alura.com.br/immersion/certificate/b43d5603-36dc-4eec-8394-44c7299203ec?lang">
+     <img src="https://github.com/JpMunhozOliveira/Imersao-Dev-10/blob/main/Certificado.png" alt="Alura" width="750" />
+    </a>
+    </div>
+
+ 
 </div>
 
